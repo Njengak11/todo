@@ -8,7 +8,7 @@ export default function App() {
       <View style={styles.taskWrapper}>
         <Text style={styles.sectionTitle}>Today's Tasks</Text>
         <View style={styles.items}>
-
+          
         </View>
       </View>
     </View>
@@ -20,8 +20,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#E8EAED',
   },
-  taskWrapper:{},
-sectionTitle:{},
+  taskWrapper:{
+    paddingTop:80,
+    paddingHorizontal:20
+  },
+sectionTitle:{
+  fontSize:25,
+  fontWeight:'bold'
+},
 items:{}
 });
  
